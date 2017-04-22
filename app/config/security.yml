@@ -22,8 +22,6 @@ security:
     user_db:
       entity: {class: CustomCMSBundle:User, property: username}
 
-
-
   firewalls:
     main:
       pattern: /.*
